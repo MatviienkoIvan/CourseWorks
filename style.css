@@ -1,0 +1,58 @@
+a {
+    text-decoration: none;
+}
+div{
+	border-radius: 35px;
+    background-color: burlywood;
+}
+p {
+    font-size:1.1em;
+    margin: 1em 0;
+}
+
+h3 {
+	border-radius: 50px;
+}
+
+ul {
+    background-color: burlywood;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 15px;
+}
+li {    
+    max-width: 110px;     
+    background-color: blanchedalmond;
+	margin: 1px;
+	padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+	border-radius: 5px;
+}
+
+.weatherParam{
+
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 0.1em solid black;
+}
+.wheatherItems{
+
+	font-size: 1.1em;
+	margin: 3px;
+    padding: 2px;
+}
+
+
+
+.cityName{
+	font-size: 1.1em;
+	border-radius: 10px;
+    text-align: center;
+    min-width: 60px;
+    height:auto;
+    border: 0.1em solid black;
+}
+ 
